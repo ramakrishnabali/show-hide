@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.appContainer {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.firstNameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+
+.firstName {
+  border-radius: 10px;
+  font-size: 15px;
+  color: #dd1264;
+  font-family: 'Roboto';
+  padding: 10px;
+  outline: thick;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  width: 230px;
+}
+
+.nameContainer {
+  background-color: #fddddb;
+  border-radius: 14px;
+  height: 130px;
+  width: 200px;
+  margin-left: 13px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+  }
+}
